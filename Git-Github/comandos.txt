@@ -1,0 +1,59 @@
+COMANDOS DE GIT
+
+Mostar la versión de git instalada
+$git --version
+
+Configurar el nombre del usuario en el repositorio ó de manera global
+$git config user.name "nombredeusuario"
+$git config --global user.name "nombredeusuario"
+
+Configurar el email del usuario en el repositorio ó de manera global
+$git config user.email "usuario@mail.com"
+$git config --global user.email "usuario@mail.com"
+
+Crear un nuevo repositorio local
+$git init
+
+Mostrar información sobre el estado de los archivos
+$git status
+
+Mostrar el historial de commits y de manera simplificada
+$git log
+$git log --oneline
+
+Agregar un archivo ó todos al stash para ser commiteados
+$git add <nombre_archivo>
+$git add .
+
+Realizar un commit con los archivos añadidos previamente ó añadir todos en ese momento y realizar el commit
+$git commit -m <mensaje>
+$git commit -am <mensaje>
+
+Añada un repositorio remoto al local
+$git remote add origin <url>
+
+Muestra los repositorios remotos configurados
+$git remote -v
+
+Elimina un repositorio remoto
+$git remote rm <nombredelremoto>
+
+Crea una rama
+$git branch <nombredelarama>
+
+Muestra las ramas disponibles
+$git branch
+
+Cambia de rama
+$git checkout <nombredelarama>
+
+Obtiene los últimos cambios de una rama o de todas ellas al repositorio local
+$git pull origin <branch>
+$git pull --all
+
+Enviar los cambios de una rama al repositorio remoto o todas las ramas
+$git push origin <branch>
+$git push --all
+
+Clonar un repositorio existente
+git clone ssh://usuario@domain.com/repo.git
