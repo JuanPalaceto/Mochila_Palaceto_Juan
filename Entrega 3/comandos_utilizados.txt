@@ -1,0 +1,28 @@
+   19  git clone https://github..com/JuanPalaceto/Mochila_Palaceto_Juan.git
+   20  git clone https://github.com/JuanPalaceto/Mochila_Palaceto_Juan.git
+   21  ls
+   22  cd Mochila_Palaceto_Juan
+   23  ls
+   24  ls -R
+   25  git checkout main
+   26  touch cuestionario.txt
+   27  nano cuestionario.txt
+   28  ls
+   29  cd  'Entrega 3'
+   30  ls
+   31  cd ..
+   32  cd  'Entrega 2'
+   33  ls
+   34  cd Mochila_Palaceto_Juan
+   35  cd ..
+   36  ls
+   37  rm cuestionario.txt
+   38  ls\
+   39  ls
+   40  git checkout -b entrega3
+   41  touch 'Entrega 3'/cuestionario.txt
+   42  ls
+   43  ls -R
+   44  nano 'Entrega 3'/cuestionario.txt
+   45  git status
+   46  history > 'Entrega 3'/comandos_utilizados.txt

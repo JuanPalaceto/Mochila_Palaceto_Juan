@@ -1,0 +1,18 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en
+otros no?
+En sí los lenguajes de programación no esþan limitados a un sistema operativo en particular, sin
+embargo, por el compilador o intérprete del código fuente, sí puede ser especifica de un sistema
+operativo en particular, por lo que se tendría que crear una versión para cada sistema. También
+puede deberse a otros factores como dependencias del SO, el ecosistema y soporte del mismo y 
+decisiones de diseño del lenguaje.
+
+¿Qué tipo de máquina virtual es virtualBox?
+Es un software de virtualización de tipo 2, lo que le permite crear y ejecutar máquinas virtuales
+en el SO principal, permitiendo utilizar múltiples sistemas operativos en una misma máquina 
+física.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+No, ya que cada máquina se ejecuta de forma aislada y tiene su propio entorno virtualizado.
+Esta es una de sus principales características y ventaja, de hecho.
+Cada máquina virtual cuenta con su propio sistema operativo, así como su memoria asignada y su
+capacidad de almacenamiento, configuración de red, controladores, étc.
