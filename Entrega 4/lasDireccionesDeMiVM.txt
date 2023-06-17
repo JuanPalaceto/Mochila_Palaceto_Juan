@@ -1,0 +1,6 @@
+IP Privada: 10.0.2.15/24
+IP pública: 189.219.208.186
+DIreccón MAC: 08:00:27:5e:ec:b3
+
+¿Es diferente a la IP pública y privada de nuestra máquina host?
+La dirección pública no, es la misma, pero la privada sí es diferente, esto porque cada una debe tener una IP privada diferente, para poder identificar a cada equipo en la red, pero ambos equipos tienen salida a internet mediante el mismo router, por eso la IP pública no va a cambiar. De hecho me parece, pero no estoy seguro, que la IP privada de mis máquinas virtuales hace un poco lo mismo que el router, de forma que todas las máquinas virtuales se identifican con una IP que es la que identifica a VirtualBox y de esta es que pasan al router, por lo que en sí se podría decir que la IP privada de VirtualBox sería la IP pública en este contexto, y cada IP privada de cada máquina virtual sería una IP Privada representada por la IP Pública de virtualbox.
