@@ -1,0 +1,10 @@
+¿Cúales son las ventajas y desventajas de usar el protocolo Telnet?
+Como ventajas principales yo mencionaría que está integrado en windows, sólo basta con activarlo y que es bastante sencillo de utilizar en terminos de que basta con introducir la dirección ip y el usuario y contraseña.
+Como desventaja anoto que por alguna razón rompió mi teclado y la pantalla se sobreponían unos caracteres sobre otros, haciendolo muy confuso, además no tiene ninguna capa de seguridad extra, es decir simplemente te conectas y lista.
+
+¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
+Como ventaja es que es más seguro, ya que guarda la ip a la que te conectas y si esta cambia por alguna razón de equipo entonces te dará una advertencia y no te dejará conectarte a menos que hagas una modificación, y también me parece que es más seguro que telnet.
+De desventaja sería que es más complejo de utilizar, ya que requiere saber como tocar las configuraciones por ejemplo. Otra desventaja es que me parece es más lento que telnet, debido a la seguridad extra que integra.
+
+¿Cuáles son las principales diferencias entre SSH Y TElnet?
+La diferencia clave radica en la seguridad, ya que SSH es mucho más seguro y esto a la vez lo vuelve más lento, pues debido a estos procesos extra que realiza para comprobar la seguridad y cifrar los datos por ejemplo, también utiliza más recursos.
